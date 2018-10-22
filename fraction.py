@@ -1,9 +1,9 @@
 import math
 #please only imput simplified fractions :)
-nuMerator = 1
-#nuMerator = int(input("what is your numerator? "))
-#deNominatorOG = int(input("what is your denominator? "))
-deNominatorOG = 25
+#program only works if the numerator<denominator 
+
+nuMerator = int(input("what is your numerator? "))
+deNominatorOG = int(input("what is your denominator? "))
 deNominator = deNominatorOG
 print("The decimal equivalent of this fraction is ",+nuMerator/deNominator)
 
