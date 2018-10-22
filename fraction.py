@@ -6,6 +6,7 @@ deNominator = int(input("what is your denominator? "))
 
 nuMbers = []
 
+nonRepeat = 0
 
 while deNominator%2 == 0 or deNominator%5 == 0 or deNominator%10 == 0
 if deNominator%2 == 0:
@@ -17,5 +18,6 @@ if deNominator%5 == 0:
 if deNominator%10 == 0:
     deNominator = deNominator/10
     
-print(deNominator)
+    nonRepeat += 1
 
+print(deNominator)
