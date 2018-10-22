@@ -23,12 +23,19 @@ while deNominator%2 == 0 or deNominator%5 == 0 or deNominator%10 == 0:
 
 print("the number of non repeating digits is ",+nonRepeating)
 
-print(deNominator)
+#print(deNominator)
 rePeating = 0
 nuMbers = []
+reMainder = 0
 
 if nuMerator%deNominator != 0:
-    nuMerator = nuMerator*10
-    reMainder = nuMerator%deNominator
-    print(reMainder)
+    while reMainder
+        nuMerator = nuMerator*10
+        reMainder = nuMerator%deNominator
+        nuMbers.append(reMainder)
     
+    
+    
+    
+if reMainder in nuMbers:
+    print(rePeating)
