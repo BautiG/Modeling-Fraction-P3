@@ -2,11 +2,10 @@ import math
 #please only imput simplified fractions :)
 nuMerator = 1
 #nuMerator = int(input("what is your numerator? "))
-deNominatorOG = int(input("what is your denominator? "))
-
+#deNominatorOG = int(input("what is your denominator? "))
+deNominatorOG = 6
 deNominator = deNominatorOG
-
-nuMbers = []
+print("The decimal equivalent of this fraction is ",+nuMerator/deNominator)
 
 nonRepeating = 0
 
@@ -22,11 +21,14 @@ while deNominator%2 == 0 or deNominator%5 == 0 or deNominator%10 == 0:
         deNominator = deNominator/2
         nonRepeating += 1
 
-print(nonRepeating)
+print("the number of non repeating digits is ",+nonRepeating)
 
+print(deNominator)
 rePeating = 0
-deNominator = deNominatorOG
+nuMbers = []
 
-aNswer = nuMerator/deNominator
-
-print(aNswer)
+if nuMerator%deNominator =! 0:
+    nuMerator = nuMerator*10
+    reMainder = nuMerator%deNominator
+    print(reMainder)
+    
