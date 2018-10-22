@@ -27,7 +27,7 @@ print(deNominator)
 rePeating = 0
 nuMbers = []
 
-if nuMerator%deNominator =! 0:
+if nuMerator%deNominator != 0:
     nuMerator = nuMerator*10
     reMainder = nuMerator%deNominator
     print(reMainder)
