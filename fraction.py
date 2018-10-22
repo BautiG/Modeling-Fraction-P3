@@ -22,10 +22,11 @@ while deNominator%2 == 0 or deNominator%5 == 0 or deNominator%10 == 0:
         deNominator = deNominator/2
         nonRepeat += 1
 
-
 print(nonRepeat)
 
+
 rePeat = 0
+deNominator = deNominatorOG
 
 aNswer = nuMerator/deNominator
 
