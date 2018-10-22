@@ -8,6 +8,7 @@ deNominator = deNominatorOG
 print("The decimal equivalent of this fraction is ",+nuMerator/deNominator)
 
 nonRepeating = 0
+nuMerator = 1
 
 while deNominator%2 == 0 or deNominator%5 == 0 or deNominator%10 == 0:
     while deNominator%2 == 0 and deNominator%5 == 0:
