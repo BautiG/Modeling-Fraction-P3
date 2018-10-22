@@ -29,11 +29,12 @@ nuMbers = []
 reMainder = 0
 
 if nuMerator%deNominator != 0:
-    while reMainder
+    while reMainder not in nuMbers:
         nuMerator = nuMerator*10
         reMainder = nuMerator%deNominator
         nuMbers.append(reMainder)
-    
+        rePeating +=1
+
     
     
     
