@@ -1,6 +1,6 @@
 import math
 #please only imput simplified fractions :)
-#program only works if the numerator<denominator 
+#the program ignores anything to the left of the decimal point
 
 nuMerator = int(input("what is your numerator? "))
 deNominatorOG = int(input("what is your denominator? "))
