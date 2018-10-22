@@ -8,24 +8,23 @@ deNominator = deNominatorOG
 
 nuMbers = []
 
-nonRepeat = 0
+nonRepeating = 0
 
 while deNominator%2 == 0 or deNominator%5 == 0 or deNominator%10 == 0:
     while deNominator%2 == 0 and deNominator%5 == 0:
         if deNominator%10 == 0:
             deNominator = deNominator/10
-            nonRepeat += 1
+            nonRepeating += 1
     if deNominator%5 == 0:
         deNominator = deNominator/5
-        nonRepeat += 1
+        nonRepeating += 1
     if deNominator%2 == 0:
         deNominator = deNominator/2
-        nonRepeat += 1
+        nonRepeating += 1
 
-print(nonRepeat)
+print(nonRepeating)
 
-
-rePeat = 0
+rePeating = 0
 deNominator = deNominatorOG
 
 aNswer = nuMerator/deNominator
