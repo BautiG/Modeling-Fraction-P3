@@ -3,7 +3,7 @@ import math
 nuMerator = 1
 #nuMerator = int(input("what is your numerator? "))
 #deNominatorOG = int(input("what is your denominator? "))
-deNominatorOG = 6
+deNominatorOG = 42
 deNominator = deNominatorOG
 print("The decimal equivalent of this fraction is ",+nuMerator/deNominator)
 
@@ -27,16 +27,19 @@ print("the number of non repeating digits is ",+nonRepeating)
 rePeating = 0
 nuMbers = []
 reMainder = 0
+nuMeratorCheck = nuMerator
 
 if nuMerator%deNominator != 0:
-    while reMainder not in nuMbers:
+    nuMerator = nuMerator*10
+    reMainder = nuMerator%deNominator
+    nuMbers.append(reMainder)
+    rePeating +=1
+    while nuMeratorCheck not in nuMbers:
         nuMerator = nuMerator*10
         reMainder = nuMerator%deNominator
         nuMbers.append(reMainder)
         rePeating +=1
+        
 
-    
-    
-    
 if reMainder in nuMbers:
     print(rePeating)
