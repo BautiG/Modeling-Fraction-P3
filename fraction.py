@@ -3,8 +3,7 @@ import math
 #the program ignores anything to the left of the decimal point
 
 nuMerator = int(input("what is your numerator? "))
-deNominatorOG = int(input("what is your denominator? "))
-deNominator = deNominatorOG
+deNominator = int(input("what is your denominator? "))
 print("The decimal equivalent of this fraction is ",+nuMerator/deNominator)
 
 nonRepeating = 0
